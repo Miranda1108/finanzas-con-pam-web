@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestori | Finanzas con Pam</title>
+  <meta name="description" content="Tu app de control de gastos simplificada. Suscr&iacute;bete por $99 MXN/mes.">
+  <meta name="theme-color" content="#314528">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Marcellus&family=Comfortaa:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/inner.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar--inner" id="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="navbar-logo"><span class="logo-script">Finanzas</span><span class="logo-serif">Con Pam</span></a>
+      <ul class="navbar-links" id="navLinks">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html#servicios">SERVICIOS</a></li>
+        <li><a href="asesoria.html">ASESOR&Iacute;A 1:1</a></li>
+        <li><a href="gestori.html" class="active">GESTORI</a></li>
+        <li><a href="money-club.html">MONEY CLUB</a></li>
+        <li><a href="quiz.html">QUIZ</a></li>
+      </ul>
+      <div class="navbar-right">
+        <a href="https://wa.me/5215610484232?text=Hola%20Pam%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20servicios." class="navbar-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </a>
+      </div>
+      <button class="navbar-hamburger" id="navHamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="index.html#servicios">SERVICIOS</a></li>
+      <li><a href="asesoria.html">ASESOR&Iacute;A 1:1</a></li>
+      <li><a href="gestori.html">GESTORI</a></li>
+      <li><a href="money-club.html">MONEY CLUB</a></li>
+      <li><a href="quiz.html">QUIZ</a></li>
+      <li><a href="https://wa.me/5215610484232" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top:1rem;display:inline-block;">Cont&aacute;ctame</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner page-banner--green" style="padding-top:100px;background:var(--green)">
+    <div class="page-banner-slides">
+      <div class="page-banner-slide">
+        <h2 class="page-banner-title">Gestori</h2>
+        <p class="page-banner-subtitle">Tu app de control de gastos simplificada</p>
+      </div>
+      <div class="page-banner-slide">
+        <h2 class="page-banner-title">$99/mes</h2>
+        <p class="page-banner-subtitle">Menos de lo que gastas en un caf&eacute; a la semana</p>
+      </div>
+      <div class="page-banner-slide">
+        <h2 class="page-banner-title">Control total</h2>
+        <p class="page-banner-subtitle">Reportes mensuales, categor&iacute;as y presupuestos</p>
+      </div>
+    </div>
+    <div class="page-banner-dots">
+      <button class="page-banner-dot active"></button>
+      <button class="page-banner-dot"></button>
+      <button class="page-banner-dot"></button>
+    </div>
+  </section>
+
+  <!-- INNER HERO - GESTORI -->
+  <section class="inner-hero inner-hero--green">
+    <div class="container inner-hero-grid">
+      <div class="inner-hero-content">
+        <span class="inner-badge inner-badge--light">HERRAMIENTA DIGITAL</span>
+        <h1 class="inner-hero-title inner-hero-title--white">Gestori</h1>
+        <p class="inner-hero-subtitle inner-hero-subtitle--white">Tu app de control de gastos, simplificada y sin complicaciones. Registra, categoriza y entiende a d&oacute;nde se va tu dinero cada mes.</p>
+        <div class="inner-hero-price inner-hero-price--white">
+          <span class="inner-price-amount">$99 MXN</span>
+          <span class="inner-price-detail">/ mes &bull; Cancela cuando quieras</span>
+        </div>
+        <a href="https://wa.me/5215610484232?text=GESTORI%20-%20Quiero%20suscribirme%20a%20Gestori" class="btn btn-white btn-lg" target="_blank" rel="noopener">SUSCR&Iacute;BETE AHORA</a>
+      </div>
+      <div class="inner-hero-image">
+        <!-- Gestori App Mockup Card -->
+        <div class="gestori-mockup">
+          <div class="gestori-mockup-header">
+            <span class="gestori-mockup-dot"></span>
+            <span class="gestori-mockup-dot"></span>
+            <span class="gestori-mockup-dot"></span>
+          </div>
+          <div class="gestori-mockup-body">
+            <p class="gestori-mockup-title">Resumen del mes</p>
+            <div class="gestori-mockup-stat">
+              <span>Ingresos</span>
+              <span class="gestori-green">+$18,500</span>
+            </div>
+            <div class="gestori-mockup-stat">
+              <span>Gastos</span>
+              <span class="gestori-red">-$12,340</span>
+            </div>
+            <div class="gestori-mockup-divider"></div>
+            <div class="gestori-mockup-stat gestori-mockup-stat--total">
+              <span>Disponible</span>
+              <span>$6,160</span>
+            </div>
+            <div class="gestori-mockup-categories">
+              <div class="gestori-cat"><span class="gestori-cat-dot" style="background:#FFEDA8"></span>Comida 35%</div>
+              <div class="gestori-cat"><span class="gestori-cat-dot" style="background:#C8D4E3"></span>Transporte 20%</div>
+              <div class="gestori-cat"><span class="gestori-cat-dot" style="background:#910F17"></span>Entretenimiento 15%</div>
+              <div class="gestori-cat"><span class="gestori-cat-dot" style="background:#4a6639"></span>Ahorro 30%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="inner-info">
+    <div class="container">
+      <div class="inner-info-grid">
+        <div class="inner-info-block reveal">
+          <span class="inner-info-emoji">&#x1F4CA;</span>
+          <h3 class="inner-info-heading">&iquest;Qu&eacute; es Gestori?</h3>
+          <ul class="inner-info-list">
+            <li>Una herramienta digital para llevar el control de tus gastos e ingresos mes a mes</li>
+            <li>Interfaz simple y amigable, sin t&eacute;rminos complicados</li>
+            <li>Dise&ntilde;ada especialmente para mujeres que quieren entender su dinero</li>
+            <li>Accede desde cualquier dispositivo con conexi&oacute;n a internet</li>
+          </ul>
+        </div>
+        <div class="inner-info-block reveal reveal-delay-1">
+          <span class="inner-info-emoji">&#x2728;</span>
+          <h3 class="inner-info-heading">Caracter&iacute;sticas</h3>
+          <ul class="inner-info-list">
+            <li>Registro r&aacute;pido de gastos e ingresos</li>
+            <li>Categorizaci&oacute;n autom&aacute;tica (comida, transporte, entretenimiento, etc.)</li>
+            <li>Reportes mensuales visuales con gr&aacute;ficas claras</li>
+            <li>Presupuestos personalizados por categor&iacute;a</li>
+            <li>Alertas cuando te acercas a tu l&iacute;mite</li>
+          </ul>
+        </div>
+        <div class="inner-info-block reveal reveal-delay-2">
+          <span class="inner-info-emoji">&#x1F680;</span>
+          <h3 class="inner-info-heading">&iquest;C&oacute;mo empiezo?</h3>
+          <ol class="inner-info-list inner-info-list--numbered">
+            <li>Env&iacute;a un mensaje por WhatsApp para suscribirte</li>
+            <li>Realiza tu pago de $99 MXN (primer mes)</li>
+            <li>Recibe tu acceso y empieza a registrar tus gastos</li>
+            <li>Cada mes recibir&aacute;s tu reporte y podr&aacute;s ajustar tus presupuestos</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUE INCLUYE -->
+  <section class="inner-includes inner-includes--green">
+    <div class="container">
+      <h2 class="inner-includes-title">&iquest;Qu&eacute; incluye tu suscripci&oacute;n?</h2>
+      <div class="inner-includes-grid">
+        <div class="inner-includes-card reveal">
+          <div class="inner-includes-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Dashboard Personal</h3>
+          <p>Vista completa de tus finanzas en un solo lugar. Ingresos, gastos, presupuestos y tendencias al alcance de un clic.</p>
+        </div>
+        <div class="inner-includes-card reveal reveal-delay-1">
+          <div class="inner-includes-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Reportes Mensuales</h3>
+          <p>Al cierre de cada mes recibes un resumen completo con gr&aacute;ficas, comparativas y recomendaciones para mejorar.</p>
+        </div>
+        <div class="inner-includes-card reveal reveal-delay-2">
+          <div class="inner-includes-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Soporte Continuo</h3>
+          <p>Si tienes dudas sobre c&oacute;mo usar Gestori o necesitas ayuda interpretando tus n&uacute;meros, estoy para ayudarte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="inner-faq">
+    <div class="container">
+      <h2 class="inner-faq-title">Preguntas Frecuentes</h2>
+      <div class="inner-faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>&iquest;Gestori es una app que descargo?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Gestori es una plataforma web a la que accedes desde tu navegador. Funciona en celular, tablet y computadora sin necesidad de descargar nada.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>&iquest;Puedo cancelar en cualquier momento?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>S&iacute;, puedes cancelar tu suscripci&oacute;n cuando quieras. No hay contratos ni permanencia m&iacute;nima. Solo env&iacute;a un mensaje por WhatsApp.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>&iquest;C&oacute;mo se realiza el pago?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>El pago es mensual de $99 MXN. Se puede hacer por transferencia bancaria o dep&oacute;sito. Se renueva cada mes.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>&iquest;Mis datos financieros est&aacute;n seguros?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Tus datos son 100% privados y solo t&uacute; tienes acceso a ellos. No compartimos ni vendemos informaci&oacute;n personal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="inner-cta inner-cta--green">
+    <div class="container inner-cta-content">
+      <h2 class="inner-cta-title">Empieza a entender tu dinero hoy</h2>
+      <p class="inner-cta-desc">Por menos de lo que gastas en un caf&eacute; a la semana, ten el control total de tus finanzas.</p>
+      <a href="https://wa.me/5215610484232?text=GESTORI%20-%20Quiero%20suscribirme%20a%20Gestori" class="btn btn-white btn-lg" target="_blank" rel="noopener">SUSCR&Iacute;BETE POR $99/MES &rarr;</a>
+    </div>
+  </section>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/5215610484232?text=Hola%20Pam%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20servicios." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <p class="footer-copyright">&copy; 2026 Finanzas con Pam</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.6a8.26 8.26 0 0 0 4.76 1.5v-3.4h-1z"/></svg></a>
+        <a href="https://wa.me/5215610484232" aria-label="WhatsApp" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-giant">
+      <span class="footer-giant-text">FINANZAS CON PAM</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

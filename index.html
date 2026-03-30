@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finanzas con Pam | Haz las paces con tu dinero</title>
+  <meta name="description" content="Ayudo a mujeres y a inversionistas principiantes a ordenar sus finanzas e invertir con claridad.">
+  <meta name="theme-color" content="#910F17">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Marcellus&family=Comfortaa:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar" id="announcementBar">
+    <button class="announcement-arrow announcement-arrow--left" id="annPrev" aria-label="Anterior">&lsaquo;</button>
+    <div class="announcement-text" id="annText"></div>
+    <button class="announcement-arrow announcement-arrow--right" id="annNext" aria-label="Siguiente">&rsaquo;</button>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#inicio" class="navbar-logo"><span class="logo-script">Finanzas</span><span class="logo-serif">Con Pam</span></a>
+      <ul class="navbar-links" id="navLinks">
+        <li><a href="#inicio">HOME</a></li>
+        <li><a href="#servicios">SERVICIOS</a></li>
+        <li><a href="asesoria.html">ASESOR&Iacute;A 1:1</a></li>
+        <li><a href="gestori.html">GESTORI</a></li>
+        <li><a href="money-club.html">MONEY CLUB</a></li>
+        <li><a href="quiz.html">QUIZ</a></li>
+      </ul>
+      <div class="navbar-right">
+        <a href="https://wa.me/5215610484232?text=Hola%20Pam%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20servicios." class="navbar-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </a>
+      </div>
+      <button class="navbar-hamburger" id="navHamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu-links">
+      <li><a href="#inicio">HOME</a></li>
+      <li><a href="#servicios">SERVICIOS</a></li>
+      <li><a href="asesoria.html">ASESOR&Iacute;A 1:1</a></li>
+      <li><a href="gestori.html">GESTORI</a></li>
+      <li><a href="money-club.html">MONEY CLUB</a></li>
+      <li><a href="quiz.html">QUIZ</a></li>
+      <li><a href="https://wa.me/5215610484232" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top:1rem;display:inline-block;">Cont&aacute;ctame</a></li>
+    </ul>
+  </div>
+
+  <!-- GIANT HERO TYPOGRAPHY -->
+  <section class="hero-giant" id="inicio">
+    <h1 class="hero-giant-text">FINANZAS CON PAM</h1>
+  </section>
+
+  <!-- HERO SPLIT -->
+  <section class="hero-split">
+    <div class="hero-split-text">
+      <p class="hero-split-tagline reveal">EDUCACI&Oacute;N FINANCIERA<br>SIN MIEDO NI CULPA.</p>
+    </div>
+    <div class="hero-split-image">
+      <img src="img/pam-hero.jpeg" alt="Pam - Asesora financiera" loading="eager">
+    </div>
+  </section>
+
+  <!-- SERVICES CARDS -->
+  <section class="services-cards" id="servicios">
+    <h2 class="services-title reveal">ESTO ES PARA TI &lt;3</h2>
+    <div class="services-grid">
+      <!-- Card 1: Money Club -->
+      <a href="money-club.html" class="service-card service-card--red reveal">
+        <div class="service-card-center">
+          <h3 class="service-card-name">MONEY<br>CLUB</h3>
+          <p class="service-card-desc">Workshop presencial de finanzas para mujeres</p>
+          <span class="service-card-detail">12 DE ABRIL &bull; CDMX</span>
+        </div>
+      </a>
+      <!-- Card 2: Asesoria -->
+      <a href="asesoria.html" class="service-card service-card--blue reveal reveal-delay-1">
+        <div class="service-card-center">
+          <h3 class="service-card-name">ASESOR&Iacute;A<br>1:1</h3>
+          <p class="service-card-desc">Claridad, estrategia y un plan personalizado para tus finanzas</p>
+          <span class="service-card-detail">SESI&Oacute;N DE 60 MIN</span>
+        </div>
+      </a>
+      <!-- Card 3: Gestori -->
+      <a href="gestori.html" class="service-card service-card--green reveal reveal-delay-2">
+        <div class="service-card-center">
+          <h3 class="service-card-name">GESTORI</h3>
+          <p class="service-card-desc">Tu app de control de gastos, simplificada y sin complicaciones</p>
+          <span class="service-card-detail">$99 MXN / MES</span>
+        </div>
+      </a>
+    </div>
+    <!-- CTA BUTTONS ROW -->
+    <div class="services-cta-row reveal">
+      <a href="money-club.html" class="services-cta-btn">RESERVA TU LUGAR</a>
+      <a href="asesoria.html" class="services-cta-btn">AGENDA TU ASESOR&Iacute;A</a>
+      <a href="gestori.html" class="services-cta-btn">SUSCR&Iacute;BETE A GESTORI</a>
+    </div>
+  </section>
+
+  <!-- ABOUT / SOBRE PAM -->
+  <section class="about-section" id="sobre-mi">
+    <div class="about-image">
+      <img src="img/pam-about.jpeg" alt="Pam Miranda Baeza" loading="lazy">
+    </div>
+    <div class="about-text">
+      <p class="about-intro"><em>Soy <strong>Pam.</strong> Me apasiona la educaci&oacute;n financiera y creo firmemente que no es solo para expertos. <strong>Es para todos.</strong></em></p>
+      <p><em>La relaci&oacute;n m&aacute;s larga que vas a tener es con tu dinero&hellip; y no tiene sentido hacerla complicada. Por eso te acompa&ntilde;o a poner en orden tus finanzas, entender c&oacute;mo funciona tu dinero y empezar a <strong>invertir con mayor seguridad.</strong></em></p>
+      <p><em>Aqu&iacute; encuentras lo que he creado para acompa&ntilde;arte: <strong>asesor&iacute;as 1:1, workshops,</strong> y <strong>herramientas digitales</strong> para que tomes el control de tus finanzas con claridad y confianza.</em></p>
+    </div>
+  </section>
+
+  <!-- QUIZ CTA BANNER -->
+  <section class="quiz-section" id="quiz" style="padding:60px 0;text-align:center">
+    <div class="container">
+      <h2 class="quiz-title reveal">Descubre tu perfil de inversionista</h2>
+      <p class="quiz-subtitle reveal" style="margin-bottom:32px">Responde 12 preguntas r&aacute;pidas y descubre qu&eacute; tipo de inversionista eres.</p>
+      <a href="quiz.html" class="btn btn-primary btn-lg reveal">HACER EL QUIZ &rarr;</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="home-testimonials" id="resenas">
+    <h2 class="home-testimonials-title reveal">Lo que dicen nuestras clientas</h2>
+    <div class="home-testimonials-grid">
+      <div class="home-testimonial-card reveal">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;Nunca pens&eacute; que aprender de finanzas pudiera ser tan ameno. Pam hace que todo sea f&aacute;cil de entender y sin presiones. Ahora tengo control total de mi dinero.&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">A</div>
+          <div>
+            <div class="home-testimonial-name">Andrea M.</div>
+            <div class="home-testimonial-role">Alumna Money Club</div>
+          </div>
+        </div>
+      </div>
+      <div class="home-testimonial-card reveal reveal-delay-1">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;Despu&eacute;s de mi asesor&iacute;a con Pam empec&eacute; a ahorrar de verdad. Ya tengo mi fondo de emergencia y estoy invirtiendo en CETES. &iexcl;Incre&iacute;ble cambio!&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">C</div>
+          <div>
+            <div class="home-testimonial-name">Carla R.</div>
+            <div class="home-testimonial-role">Asesor&iacute;a 1:1</div>
+          </div>
+        </div>
+      </div>
+      <div class="home-testimonial-card reveal reveal-delay-2">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;El mejor dinero que he invertido. Gestori me ayud&oacute; a ver a d&oacute;nde se iba mi dinero y ahora ahorro el doble. Super recomendado.&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">L</div>
+          <div>
+            <div class="home-testimonial-name">Luc&iacute;a G.</div>
+            <div class="home-testimonial-role">Usuaria Gestori</div>
+          </div>
+        </div>
+      </div>
+      <div class="home-testimonial-card reveal reveal-delay-3">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;Pam tiene el don de explicar las finanzas de forma clara y cercana. Mi asesor&iacute;a fue un parteaguas en c&oacute;mo manejo mi dinero.&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">M</div>
+          <div>
+            <div class="home-testimonial-name">Mariana S.</div>
+            <div class="home-testimonial-role">Asesor&iacute;a 1:1</div>
+          </div>
+        </div>
+      </div>
+      <div class="home-testimonial-card reveal reveal-delay-4">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;Gracias al Money Club dej&eacute; de sentir miedo al hablar de dinero. Ahora tengo un presupuesto real y metas financieras claras.&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">V</div>
+          <div>
+            <div class="home-testimonial-name">Valeria P.</div>
+            <div class="home-testimonial-role">Alumna Money Club</div>
+          </div>
+        </div>
+      </div>
+      <div class="home-testimonial-card reveal reveal-delay-4">
+        <div class="home-testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="home-testimonial-text">&ldquo;Con Gestori por fin entiendo a d&oacute;nde va cada peso. Es s&uacute;per f&aacute;cil de usar y los reportes mensuales son incre&iacute;bles.&rdquo;</p>
+        <div class="home-testimonial-author">
+          <div class="home-testimonial-avatar">D</div>
+          <div>
+            <div class="home-testimonial-name">Diana F.</div>
+            <div class="home-testimonial-role">Usuaria Gestori</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/5215610484232?text=Hola%20Pam%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20tus%20servicios." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- CHATBOT -->
+  <button class="chatbot-toggle" id="chatbotToggle" aria-label="Abrir chat">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <div class="chatbot-header-avatar">&#x1F4B0;</div>
+        <div>
+          <div class="chatbot-header-name">Asistente Financiero</div>
+          <div class="chatbot-header-status">En l&iacute;nea</div>
+        </div>
+      </div>
+      <button class="chatbot-close" id="chatbotClose">&times;</button>
+    </div>
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="chatbot-msg chatbot-msg--bot">&iexcl;Hola! Soy el asistente de Finanzas con Pam. &iquest;En qu&eacute; puedo ayudarte hoy? Puedes preguntarme sobre ahorro, inversiones, presupuestos o nuestros servicios.</div>
+    </div>
+    <div class="chatbot-suggestions" id="chatbotSuggestions">
+      <button class="chatbot-suggestion" onclick="sendSuggestion(this)">&iquest;C&oacute;mo empiezo a ahorrar?</button>
+      <button class="chatbot-suggestion" onclick="sendSuggestion(this)">&iquest;Qu&eacute; son los CETES?</button>
+      <button class="chatbot-suggestion" onclick="sendSuggestion(this)">&iquest;Qu&eacute; servicios ofreces?</button>
+      <button class="chatbot-suggestion" onclick="sendSuggestion(this)">Fondo de emergencia</button>
+    </div>
+    <div class="chatbot-input-area">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Escribe tu pregunta..." autocomplete="off">
+      <button class="chatbot-send" id="chatbotSend">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <p class="footer-copyright">&copy; 2026 Finanzas con Pam</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.6a8.26 8.26 0 0 0 4.76 1.5v-3.4h-1z"/></svg></a>
+        <a href="https://wa.me/5215610484232" aria-label="WhatsApp" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-giant">
+      <span class="footer-giant-text">FINANZAS CON PAM</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Announcement bar carousel
+    (function() {
+      var announcements = [
+        "\u2728 \u00a1\u00danete a Money Club! Workshop presencial \u2022 12 de Abril \u2022 CDMX \u2728",
+        "\ud83c\udfaf Suscr\u00edbete a Gestori - Tu app de control de gastos \u2022 $99 MXN/mes",
+        "\ud83d\udcac Agenda tu asesor\u00eda 1:1 \u2022 Sesi\u00f3n personalizada de 60 min"
+      ];
+      var currentAnn = 0;
+      var annText = document.getElementById('annText');
+      var annPrev = document.getElementById('annPrev');
+      var annNext = document.getElementById('annNext');
+
+      function showAnnouncement(index) {
+        annText.style.opacity = '0';
+        setTimeout(function() {
+          annText.textContent = announcements[index];
+          annText.style.opacity = '1';
+        }, 200);
+      }
+
+      showAnnouncement(0);
+
+      annNext.addEventListener('click', function() {
+        currentAnn = (currentAnn + 1) % announcements.length;
+        showAnnouncement(currentAnn);
+      });
+
+      annPrev.addEventListener('click', function() {
+        currentAnn = (currentAnn - 1 + announcements.length) % announcements.length;
+        showAnnouncement(currentAnn);
+      });
+
+      // Auto-rotate every 5 seconds
+      setInterval(function() {
+        currentAnn = (currentAnn + 1) % announcements.length;
+        showAnnouncement(currentAnn);
+      }, 5000);
+    })();
+  </script>
+</body>
+</html>
